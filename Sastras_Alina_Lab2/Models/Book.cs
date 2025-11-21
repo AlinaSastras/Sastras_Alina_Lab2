@@ -24,5 +24,7 @@ namespace Sastras_Alina_Lab2.Models
         public int? PublisherId { get; set; }
 
         public Publisher? Publisher { get; set; }
+
+        public ICollection<BookCategory>? BookCategories { get; set; }
     }
 }
